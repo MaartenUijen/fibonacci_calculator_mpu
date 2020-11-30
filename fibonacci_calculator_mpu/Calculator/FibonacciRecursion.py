@@ -1,5 +1,5 @@
 from typing import List
-from fibonacci_calculator_mpu.fibonacci_calculator_mpu.Decorators.memoize import *
+from fibonacci_calculator_mpu.Decorators.memoize import memoize
 
 
 class FibonacciRecursion:

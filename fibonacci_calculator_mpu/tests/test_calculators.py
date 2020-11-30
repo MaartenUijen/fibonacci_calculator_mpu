@@ -1,7 +1,7 @@
 import pytest
 
-from fibonacci_calculator_mpu.fibonacci_calculator_mpu.Calculator.FibonacciIteration import FibonacciIteration
-from fibonacci_calculator_mpu.fibonacci_calculator_mpu.Calculator.FibonacciRecursion import FibonacciRecursion
+from fibonacci_calculator_mpu.Calculator.FibonacciRecursion import FibonacciRecursion
+from fibonacci_calculator_mpu.Calculator.FibonacciIteration import FibonacciIteration
 
 
 @pytest.mark.parametrize('fibonacci_class', [FibonacciIteration, FibonacciRecursion])
