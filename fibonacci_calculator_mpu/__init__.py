@@ -2,4 +2,4 @@
 
 __author__ = """Maarten Uijen"""
 __email__ = 'maarten.uijen@ordina.nl'
-__version__ = '0.0.1'
+__version__ = '0.0.2'
