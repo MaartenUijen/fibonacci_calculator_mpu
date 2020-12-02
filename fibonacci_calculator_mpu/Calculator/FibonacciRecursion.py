@@ -25,7 +25,7 @@ class FibonacciRecursion:
             return sequence
 
     @memoize
-    def get_index_fibonacci_number(self, number: int) -> int:
+    def get_fibonacci_index(self, number: int) -> int:
 
         if number < 2:
             return number

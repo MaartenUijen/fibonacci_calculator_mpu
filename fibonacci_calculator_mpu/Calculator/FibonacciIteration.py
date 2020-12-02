@@ -36,7 +36,7 @@ class FibonacciIteration:
         self.get_fibonacci_number(n)
         return list(self.lookup_table.values()) if n > 0 else [-1]
 
-    def get_index_fibonacci_number(self, number: int) -> int:
+    def get_fibonacci_index(self, number: int) -> int:
         """
         Returns an index of the given fibonacci number. If the given number is not a fibonacci
         number the closest fibonacci number will be used.
